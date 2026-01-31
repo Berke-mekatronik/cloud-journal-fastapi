@@ -1,8 +1,7 @@
 from datetime import datetime, timezone
 from typing import List, Dict, Any
+from ..repositories.postgres_repository import PostgresDB
 import logging
-
-from api.repositories.postgres_repository import PostgresDB
 
 logger = logging.getLogger("journal")
 

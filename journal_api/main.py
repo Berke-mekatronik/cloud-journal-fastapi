@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from dotenv import load_dotenv
-from api.controllers import journal_router
+from .controllers import journal_router
 import logging
 
 load_dotenv()

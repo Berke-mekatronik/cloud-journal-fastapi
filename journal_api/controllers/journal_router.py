@@ -5,7 +5,7 @@ from fastapi.responses import JSONResponse
 from fastapi.encoders import jsonable_encoder
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
 from ..repositories.postgres_repository import PostgresDB
-from ..services import EntryService
+from ..services.entry_service import EntryService
 from ..models.entry import Entry, EntryCreate, EntryUpdate
 from pydantic import BaseModel, Field
 from dotenv import load_dotenv

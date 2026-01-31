@@ -4,7 +4,7 @@ import asyncpg
 from datetime import datetime, timezone
 from typing import Any, Dict, List, Optional
 from dotenv import load_dotenv
-from api.repositories.interface_respository import DatabaseInterface
+from .interface_respository import DatabaseInterface
 
 load_dotenv()
 

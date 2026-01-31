@@ -1,5 +1,5 @@
 from fastapi import HTTPException
-from api.models import DailyEntry, DailyEntryUpdate
+from .models import DailyEntry, DailyEntryUpdate
 
 def get_entry_model(entry_type: str):
     if entry_type == "daily":

@@ -172,3 +172,13 @@ cython_debug/
 
 ec2-api.pem
 ec2-db.pem
+
+# Infrastructure files
+terraform.tfvars
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.lock.hcl
+
+#Project pictures
+img/
