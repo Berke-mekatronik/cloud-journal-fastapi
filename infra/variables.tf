@@ -28,4 +28,5 @@ variable "private_subnet_cidr" {
 variable "my_ip" {
   description = "Developer public IP for SSH access"
   type        = string
+  default     = "127.0.0.1"
 }

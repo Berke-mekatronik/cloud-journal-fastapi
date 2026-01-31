@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  ci:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -33,4 +33,4 @@ jobs:
 
       - name: Terraform Plan
         working-directory: infra
-        run: terraform plan -input=false
+        run: terraform plan -input=false -var="my_ip=127.0.0.1"
